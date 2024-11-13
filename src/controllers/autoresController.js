@@ -54,5 +54,5 @@ class AutorController {
         } catch (error) {
             next(error);
         }
-    }
+    };
 }
