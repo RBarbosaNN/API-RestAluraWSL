@@ -11,7 +11,7 @@ class AutorController {
         }
     };
 
-    static lestarAutorPorId = async (req, res, next) => {
+    static listarAutorPorId = async (req, res, next) => {
         try {
             const id = req.params.id;
             const autorLocalizado = await autores.findById(id);
@@ -56,3 +56,5 @@ class AutorController {
         }
     };
 }
+
+export default AutorController;
